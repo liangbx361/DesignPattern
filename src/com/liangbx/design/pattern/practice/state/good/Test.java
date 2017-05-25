@@ -1,0 +1,17 @@
+package com.liangbx.design.pattern.practice.state.good;
+
+/**
+ * Created by liangbx on 2017/5/25.
+ */
+public class Test {
+
+    public static void main(String[] args) {
+        MusicPlayer musicPlayer = new MusicPlayer();
+        musicPlayer.powerOn();
+        musicPlayer.next();
+        musicPlayer.last();
+        musicPlayer.powerOff();
+        musicPlayer.next();
+        musicPlayer.last();
+    }
+}
